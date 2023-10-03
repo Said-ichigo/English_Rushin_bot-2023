@@ -1,0 +1,55 @@
+from aiogram.types import KeyboardButton,ReplyKeyboardMarkup
+Lessons = ReplyKeyboardMarkup(
+    keyboard=[
+        [
+            KeyboardButton('Lesson-1'),
+            KeyboardButton('Lesson-2')
+        ],
+        [
+            KeyboardButton('Lesson-3'),
+            KeyboardButton('Lesson-4')
+        ],
+        [
+            KeyboardButton('Lesson-5'),
+            KeyboardButton('Lesson-6')
+        ],
+        [
+            KeyboardButton('Lesson-7'),
+            KeyboardButton('Lesson-8')
+
+        ],
+        [
+            KeyboardButton('Lesson-9'),
+            KeyboardButton('Lesson-10')
+        ],
+        [
+            KeyboardButton('Lesson-11'),
+            KeyboardButton('Lesson-12'),
+        ],
+        [
+            KeyboardButton('Lesson-13'),
+            KeyboardButton('Lesson-14')
+        ],
+        [
+            KeyboardButton('Lesson-15'),
+            KeyboardButton('Lesson-16') 
+        ],
+        [
+            KeyboardButton('Lesson-17'),
+            KeyboardButton('Lesson-18')
+        ],
+        [
+            KeyboardButton('Lesson-19'),
+            KeyboardButton('Lesson-20')
+        ],
+        [
+            KeyboardButton('Lesson-21'),
+            KeyboardButton('Lesson-22')
+        ],
+        [
+            KeyboardButton('Lesson-23'),
+            KeyboardButton('⬅️Back to menu')
+        ]
+    ],
+    resize_keyboard=True
+)
